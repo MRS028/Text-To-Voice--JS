@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Voice Converter with JS</title>
+    <script src="https://kit.fontawesome.com/a78a932492.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="my-24 bg-[#605a5c] ">
+    <div class="flex flex-col mx-8 mt-16 lg:m-16 lg:p-5 ">
+        <h1 class="pb-4 text-white font-extrabold text-2xl md:text-4xl lg:text-4xl text-center lg:p-4">Text to Speech <span class="text-[#ff2963]">Converter</span></h1>
+        <textarea class="bg-[#403d84] w-full p-2 rounded-xl h-52" placeholder="Write Anything here..." id="text"></textarea>
+        <div class="items-center pt-8 space-y-4">
+            <select class="bg-[#403d84] w-full text-white font-bold text-center rounded-xl h-10" id="languageSelect"></select>
+            <button class="bg-[#403d84] text-xl text-white font-bold w-full rounded-xl h-10" id="speakButton"><i class="fa-solid fa-play"></i> Listen</button>
+        </div>
+    </div>
+    <footer class="footer pt-60 items-baseline text-base footer-center text-center text-white text-base-content p-4">
+        <aside>
+          <p class="text-xs text-slate-950">Copyright ©mrs028- All right reserved by me...</p>
+        </aside>
+      </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
